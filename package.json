@@ -4,11 +4,15 @@
   "description": "test extension",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "start": "webpack -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "me",
   "license": "AGPL-3.0",
   "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "web-ext-plugin": "^1.8.0",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2"
   }
