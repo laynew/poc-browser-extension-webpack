@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "poc_extension",
+	"description": "just testing things out",
+	"version": "0.0.1",
+	"icons": {
+		"64": "icons/icon.png"
+	},
+	"background": {
+		"scripts": [
+			"background_script.js"
+		]
+	}
+}
