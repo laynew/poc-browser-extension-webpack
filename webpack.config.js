@@ -22,8 +22,10 @@ module.exports = {
              * https://github.com/hiikezoe/web-ext-webpack-plugin/blob/master/README.md
              */
             sourceDir: '../../dist', 
-            browserConsole: true,
-            startUrl: 'about:debugging#/runtime/this-firefox',
+            startUrl: [
+                'about:debugging#/runtime/this-firefox',
+                'about:devtools-toolbox?id=poc_extension%40example.com&type=extension',
+            ],
         }),
     ],
 }
